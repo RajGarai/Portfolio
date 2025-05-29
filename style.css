@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/blue-fabric.png');
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 50px;
+  padding: 20px;
+}
+.form-section, .list-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-section button {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.list {
+  margin-top: 10px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.task-buttons button {
+  margin-left: 5px;
+}
